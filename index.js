@@ -67,7 +67,8 @@ const bodyParser = require('body-parser');
     });
     
     app.listen(port, () => {
-        console.log(`DUMP JSON API listening on port ${port}`)
+        //logging
+        console.log(`DUMP JSON API listening on port ${port}`);
     });
 
 })();
