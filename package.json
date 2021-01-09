@@ -1,0 +1,16 @@
+{
+  "name": "dump-api",
+  "version": "1.0.0",
+  "description": "DUMP is to read and write .json file as Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}
