@@ -50,6 +50,7 @@ const bodyParser = require('body-parser');
             let checkIsArray = Array.isArray(parsedContent);
             if(checkIsArray){
                 if(req.body){
+                    console.log('test');
                     console.log(req.body);
                     await parsedContent.push(req.body);
                     await fs.writeFileSync('./data/incident.json', JSON.stringify(parsedContent), 'utf-8')
